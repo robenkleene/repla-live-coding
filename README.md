@@ -22,13 +22,12 @@
 - Developers work with an editor, a terminal, and a browser, replacing the browser.
 - Not as crazy as it sounds, an editor and a terminal do the same things, they both manage child processes.
 
-
 ## Use Cases
 
-- Web Development (An automatically refreshing browser)
-- Distributing Web Apps (One click install, one click run Jupyter Notebooks)
-- Live Coding View
-- Framer Classic & Processing
+1. Processes: Web Development (An automatically refreshing browser)
+2. Packaging System: Distributing Web Apps (One click install, one click run Jupyter Notebooks)
+3. Packages: Live Coding View
+4. Packages: Framer Classic & Processing
 
 ## Origins
 
