@@ -16,6 +16,13 @@
 - Unix process management (emphasis on standard input and standard output)
 - A packaging system
 
+## Target Audience
+
+- Image of that Slack poll
+- Developers work with an editor, a terminal, and a browser, replacing the browser.
+- Not as crazy as it sounds, an editor and a terminal do the same things, they both manage child processes.
+
+
 ## Use Cases
 
 - Web Development (An automatically refreshing browser)
@@ -26,7 +33,7 @@
 ## Origins
 
 - Emacs `C-x C-e`, `(split-window-vertically)`
-- REPL integration, do the same with `IRB`
+- REPL integration, do the same with `IRB`, via an "inferior" process
 
 ### Live Coding
 
