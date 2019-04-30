@@ -5,16 +5,26 @@
 - Screenshot
 - Animated GIFs
 
+## Me
+
+- Apple platforms, former designer, native apps, worked for WSJ, text editor expert, business focused
+
 ## Goals
 
 - Use existing tools, Light Table, need to replace your text editor. Instantly you're competing with some of the most complicated software in existence.
 - Compatible with `git`
+
+## IDE
+
+- Don't put these features in an IDE
+- 23 people working on visual studio code
 
 ## Technology
 
 - A web rendering engine
 - Unix process management (emphasis on standard input and standard output)
 - A packaging system
+- A tool that shapes itself to the problem
 
 ## Target Audience
 
@@ -29,8 +39,9 @@
 3. Packages: Live Coding View
 4. Packages: Framer Classic & Processing
 
-## Origins
+## Inspiration
 
+- Literate CoffeeScript
 - Emacs `C-x C-e`, `(split-window-vertically)`
 - REPL integration, do the same with `IRB`, via an "inferior" process
 
