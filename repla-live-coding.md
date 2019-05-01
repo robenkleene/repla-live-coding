@@ -1,18 +1,33 @@
 # Repla: A New-Old Programming Tool
 
-How to do innovating programming features while working with existing tools and workflows.
+How to make new innovating programming tools that work with existing tools and workflows.
+
+Repla as an example.
 
 ---
 
 # Who Am I
 
+Roben Kleene
+
 1. Developer for Apple platforms (iOS & Mac)
 2. Left job managing WSJ app team to make my own programming app
 3. I like AppKit GUI apps, and Unix TUI apps
+4. Not a researcher, trying to create a business
+5. [@robenkleene](https://twitter.com/robenkleene)
+6. [robenkleene.com](https://robenkleene.com)
+
+---
+
+# Poll
+
+![fit](assets/poll.png)
 
 ---
 
 # Traits of Successful Programming Tools
+
+(For existing programmers)
 
 - **Language Agnostic**: Work with existing programming languages
 - **Plain Text**: An open data format
@@ -34,44 +49,27 @@ Visual Studio Code is a **language agnostic** **plain text editor** used to edit
 - **2017:** 22.3%
 - **2018:** 34.9%
 - **2019:** 50.7%
-
+<64;28;44M
 - According to [Stack Overflow Insights](https://insights.stackoverflow.com/)
 - Competes with text editors: [20-25 employees](https://changelog.com/podcast/277).
 
 ---
 
-## Repla
+# What is Repla?
+
+- A web rendering engine
+- Unix process management
+- A packaging system
+
+# What it isn't?
+
+- It is not an editor, generally tries to work along-side existing editors?
+
+---
 
 - Screenshot
 - Animated GIFs
 - Website renders
-
-## Me
-
-- Apple platforms, former designer, native apps, worked for WSJ, text editor expert, business focused
-
-## Goals
-
-- Use existing tools, Light Table, need to replace your text editor. Instantly you're competing with some of the most complicated software in existence.
-- Compatible with `git`
-
-## IDE
-
-- Don't put these features in an IDE
-- 23 people working on visual studio code
-
-## Technology
-
-- A web rendering engine
-- Unix process management (emphasis on standard input and standard output)
-- A packaging system
-- A tool that shapes itself to the problem
-
-## Target Audience
-
-- Image of that Slack poll
-- Developers work with an editor, a terminal, and a browser, replacing the browser.
-- Not as crazy as it sounds, an editor and a terminal do the same things, they both manage child processes.
 
 ## Use Cases
 
@@ -80,7 +78,25 @@ Visual Studio Code is a **language agnostic** **plain text editor** used to edit
 3. Packages: Live Coding View
 4. Packages: Framer Classic & Processing
 
-## Inspiration
+---
+
+# Why Not an IDE?
+
+- Don't put these features in an IDE
+- 23 people working on visual studio code
+
+- A tool that shapes itself to the problem
+
+---
+
+# Fitting into existing workflows
+
+- Developers work with an editor, a terminal, and a browser, replacing the browser.
+- Not as crazy as it sounds, an editor and a terminal do the same things, they both manage child processes.
+
+---
+
+# Inspiration
 
 - Skipping Bret Victor and Light Table
 - Soulver
@@ -88,13 +104,20 @@ Visual Studio Code is a **language agnostic** **plain text editor** used to edit
 - Literate CoffeeScript
 - Emacs `C-x C-e`, `(split-window-vertically)`
 - REPL integration, do the same with `IRB`, via an "inferior" process
+- Marked
 
-### Live Coding
+---
+
+# Live Coding
 
 Packages for each language:
 
 - `IRB.replaplugin`, `Python.replaplugin`, `Node.replaplugin`
 - Use your existing code editor.
+
+---
+
+# Implementation
 
 Managing an `IRB` child process:
 
@@ -118,8 +141,7 @@ Managing an `IRB` child process:
         @input.write(input)
       end
 
-## Live Coding
+## Details
 
 - The Ruby process watches the file system
 - `gem 'listen'`
-
