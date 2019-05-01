@@ -122,9 +122,11 @@ Instead of re-inventing the wheel, it seeks to work alongside existing tools.
 
 ---
 
-- Works with plain text
+# Marked
+
+- Plain text
 - Works with text editors
-- Works with Version control
+- Works with version control
 - But not language agnostic
 
 ---
@@ -164,6 +166,7 @@ Instead of re-inventing the wheel, it seeks to work alongside existing tools.
 ---
 
 - Plain text
+- Works with text editors
 - Works with version control
 - Not language agnostic
 
