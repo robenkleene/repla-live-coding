@@ -118,11 +118,34 @@ Instead of re-inventing the wheel, it seeks to work alongside existing tools.
 
 ---
 
-- Marked
+![fit](assets/marked.png)
 
 ---
 
-- Soulver
+- Works with plain text
+- Works with text editors
+- Works with Version control
+- But not language agnostic
+
+---
+
+![fit](assets/soulver.png)
+
+---
+
+- Not plain text
+- Not language agnostic
+- Doesn't work with version control
+
+---
+
+- Observable HQ
+
+---
+
+- Not plain text
+- Not language agnostic
+- Doesn't work with version control
 
 ---
 
@@ -130,7 +153,19 @@ Instead of re-inventing the wheel, it seeks to work alongside existing tools.
 
 ---
 
+- Not plain text
+- Not language agnostic
+- Doesn't work with version control
+
+---
+
 - Literate CoffeeScript
+
+---
+
+- Plain text
+- Works with version control
+- Not language agnostic
 
 ---
 
