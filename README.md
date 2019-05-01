@@ -1,22 +1,50 @@
-# Repla: A Live Coding Tool
+# Repla: A New-Old Programming Tool
 
-Theme: How to do innovating programming features while working with existing tools
+How to do innovating programming features while working with existing tools and workflows.
 
-Lean on: Unix, scripting languages, the browser, text editors, version control
+---
 
-## Lean on
+# Who Am I
 
-- **Unix**: Use child processes to expand the capabilities of an application
-- **Scripting Languages**: Make customizations easy to share and modify
-- **The Browser**: A lingua franca for graphics
+1. Developer for Apple platforms (iOS & Mac)
+2. Left job managing WSJ app team to make my own programming app
+3. I like AppKit GUI apps, and Unix TUI apps
+
+---
+
+# Traits of Successful Programming Tools
+
+- **Language Agnostic**: Work with existing programming languages
 - **Plain Text**: An open data format
+- **Packages Written in Scripting Languages**: Make customizations easy to share and modify
 - **Text Editors**: The center for programming man-hours
+- **Browser Rendering Engine**: A lingua franca for graphics
+- **Unix Processes**: Use child processes to extend capabilities
 - **Version Control**: State of the art collaboration
+
+---
+
+# Case Study: Visual Studio Code
+
+Visual Studio Code is a **language agnostic** **plain text editor** used to edit files that can be stored in **version control**. It's user interface is displayed using a **browser rendering engine**. It's **packages are written in scripting languages** that launch **Unix processes**.
+
+## Market Share
+
+- **2016:** 7.2%
+- **2017:** 22.3%
+- **2018:** 34.9%
+- **2019:** 50.7%
+
+- According to [Stack Overflow Insights](https://insights.stackoverflow.com/)
+- Competes with text editors: [20-25 employees](https://changelog.com/podcast/277).
+
+---
 
 ## Repla
 
 - Screenshot
 - Animated GIFs
+- Website renders
 
 ## Me
 
