@@ -25,6 +25,7 @@ Roben Kleene
 ## Traits of Successful Programming Tools (For Existing Programmers) 1/2
 
 - **Browser UI**: A lingua franca for graphics
+- **Language Agnostic**: Work with existing programming languages
 - **Plain Text**: An open data format
 - **Packages Written in Scripting Languages**: Make customizations easy to share and modify
 
@@ -40,7 +41,7 @@ Roben Kleene
 
 # Case Study: Visual Studio Code
 
-Visual Studio Code is a **plain text editor** used to edit files that can be stored in **version control**. It's user interface is displayed using a **browser rendering engine**. It's **packages are written in scripting languages** that launch **Unix processes**.
+Visual Studio Code is a **language agnostic** **plain text editor** used to edit files that can be stored in **version control**. It's user interface is displayed using a **browser rendering engine**. It's **packages are written in scripting languages** that launch **Unix processes**.
 
 ---
 
@@ -98,8 +99,8 @@ Instead of re-inventing the wheel, it seeks to work alongside existing tools.
 
 ## Use Cases
 
-1. **Processes:** Web Development (integrate the web server and browser window, automatically refresh)
-2. **Packaging System:** Distributing Web Apps (One click install, one click run, e.g., Jupyter Notebooks)
+1. **Processes:** Web Development (integrate the server and browser into one window, automatically refresh)
+2. **Packaging System:** Distributing Web Apps (one click install, one click run, e.g., Jupyter Notebooks)
 3. **Packages 1:** Live Coding View
 4. **Packages 2:** Framer Classic & Processing
 
@@ -107,21 +108,34 @@ Instead of re-inventing the wheel, it seeks to work alongside existing tools.
 
 # Why Not Integrate With an IDE?
 
-- Don't put these features in an IDE
-- 23 people working on visual studio code
-- A tool that shapes itself to the problem
+---
+
+![fit](assets/xcode.png)
 
 ---
 
-# Inspiration
+# Inspiration (No Bret Victor or Light Table)
 
-- Skipping Bret Victor and Light Table
+---
+
+- Marked
+
+---
+
 - Soulver
+
+---
+
 - Swift Playgrounds
+
+---
+
 - Literate CoffeeScript
+
+---
+
 - Emacs `C-x C-e`, `(split-window-vertically)`
 - REPL integration, do the same with `IRB`, via an "inferior" process
-- Marked
 
 ---
 
