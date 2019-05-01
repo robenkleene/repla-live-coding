@@ -1,5 +1,18 @@
 # Repla: A Live Coding Tool
 
+Theme: How to do innovating programming features while working with existing tools
+
+Lean on: Unix, scripting languages, the browser, text editors, version control
+
+## Lean on
+
+- **Unix**: Use child processes to expand the capabilities of an application
+- **Scripting Languages**: Make customizations easy to share and modify
+- **The Browser**: A lingua franca for graphics
+- **Plain Text**: An open data format
+- **Text Editors**: The center for programming man-hours
+- **Version Control**: State of the art collaboration
+
 ## Repla
 
 - Screenshot
@@ -41,6 +54,9 @@
 
 ## Inspiration
 
+- Skipping Bret Victor and Light Table
+- Soulver
+- Swift Playgrounds
 - Literate CoffeeScript
 - Emacs `C-x C-e`, `(split-window-vertically)`
 - REPL integration, do the same with `IRB`, via an "inferior" process
