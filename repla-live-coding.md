@@ -76,9 +76,23 @@ Instead of re-inventing the wheel, it seeks to work alongside existing tools.
 
 ---
 
-- Screenshot
-- Animated GIFs
-- Website renders
+![inline](assets/node.gif)
+
+![inline](assets/irb.gif)
+
+---
+
+![inline](assets/html.gif)
+
+![inline](assets/markdown.gif)
+
+---
+
+![fit](assets/live.png)
+
+---
+
+![fit](assets/repla.png)
 
 ---
 
