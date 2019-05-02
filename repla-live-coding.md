@@ -13,7 +13,7 @@ Roben Kleene
 
 * Developer for Apple platforms (iOS & Mac)
 * Currently making a programming tool called Repla
-* Left job managing WSJ iOS app team to work on this
+* Left job managing WSJ iOS app team to make it
 * I like AppKit GUI apps, and Unix TUI apps
 * Not a researcher, trying to create a business
 
@@ -50,7 +50,7 @@ Is your solution more useful?
 ---
 
 # Case Study: Visual Studio Code
-
+4;67;17M67;17M
 Visual Studio Code is a **language agnostic** **plain text editor** used to edit files that can be stored in **version control**. It's user interface is displayed using a **browser rendering engine**. It's **packages are written in scripting languages** that run **Unix processes**.
 
 Competes with text editors: [20-25 employees](https://changelog.com/podcast/277).
@@ -157,7 +157,7 @@ If your feature fits into existing user interface features and requires no inter
 - 👍 Plain text
 - 👍 Works with text editors
 - 👍 Works with version control
-- 👎 But not language agnostic
+- 👎 Not language agnostic
 
 ---
 
@@ -165,49 +165,44 @@ If your feature fits into existing user interface features and requires no inter
 
 ---
 
+# Soulver (Calca)
+
 - 👎 Not plain text
 - 👎 Not language agnostic
+- 👎 Doesn't work with text editors
 - 👎 Doesn't work with version control
 
 ---
 
-- Observable HQ
+![fit](assets/observablehq.png)
 
 ---
 
+# Observable (Jupyter Notebooks, Swift Playgrounds)
+
 - 👎 Not plain text
 - 👎 Not language agnostic
+- 👎 Doesn't work with text editors
 - 👎 Doesn't work with version control
 
 ---
 
-- Swift Playgrounds
+![fit](assets/framerclassic.png)
 
 ---
 
+# Framer Classic (Processing)
+
 - 👎 Not plain text
 - 👎 Not language agnostic
+- 👎 Doesn't work with text editors
 - 👎 Doesn't work with version control
 
 ---
 
-- Literate CoffeeScript
+# Live Coding With Repla
 
 ---
-
-- 👍 Plain text
-- 👍 Works with text editors
-- 👍 Works with version control
-- 👎 Not language agnostic
-
----
-
-- Emacs `C-x C-e`, `(split-window-vertically)`
-- REPL integration, do the same with `IRB`, via an "inferior" process
-
----
-
-# Live Coding
 
 Packages for each language:
 
