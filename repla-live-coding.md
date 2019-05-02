@@ -50,7 +50,7 @@ Is your solution more useful than these things?
 ---
 
 # Case Study: Visual Studio Code
-
+<64;41;32M4;41;32M41;32M;32M;41;32M1;32M
 Visual Studio Code is a **language agnostic** **plain text editor** used to edit files that can be stored in **version control**. It's user interface is displayed using a **browser rendering engine**. It's **packages are written in scripting languages** that run **Unix processes**.
 
 ---
@@ -133,16 +133,16 @@ If your feature fits into existing user interface features and requires no inter
 
 ---
 
-## Use Cases & Roadmap
+# Roadmap
 
-1. **Processes:** Web Development (integrate the server and browser into one window, automatically refresh)
+1. **Browser & Processes:** Web Development (integrate the server and browser into one window, automatically refresh)
 2. **Packaging System:** Distributing Web Apps (one click install, one click run, e.g., Jupyter Notebooks)
 3. **Packages 1:** Live Coding View
 4. **Packages 2:** Framer Classic & Processing
 
 ---
 
-# Inspiration (No Bret Victor or Light Table)
+# Use Cases
 
 ---
 
@@ -150,12 +150,14 @@ If your feature fits into existing user interface features and requires no inter
 
 ---
 
-# Marked (Deckset)
+# Marked
 
 - 👍 Plain text
 - 👍 Works with text editors
 - 👍 Works with version control
 - 👎 Not language agnostic
+
+**See also:** Deckset
 
 ---
 
@@ -163,12 +165,14 @@ If your feature fits into existing user interface features and requires no inter
 
 ---
 
-# Soulver (Calca)
+# Soulver
 
 - 👎 Not plain text
 - 👎 Not language agnostic
 - 👎 Doesn't work with text editors
 - 👎 Doesn't work with version control
+
+**See also:** Calca
 
 ---
 
@@ -176,12 +180,14 @@ If your feature fits into existing user interface features and requires no inter
 
 ---
 
-# Observable (Jupyter Notebooks, Swift Playgrounds)
+# Observable
 
 - 👎 Not plain text
 - 👎 Not language agnostic
 - 👎 Doesn't work with text editors
 - 👎 Doesn't work with version control
+
+**See also:** Jupyter Notebooks, Swift Playgrounds
 
 ---
 
@@ -189,12 +195,14 @@ If your feature fits into existing user interface features and requires no inter
 
 ---
 
-# Framer Classic (Processing)
+# Framer Classic
 
 - 👎 Not plain text
 - 👎 Not language agnostic
 - 👎 Doesn't work with text editors
 - 👎 Doesn't work with version control
+
+**See also:** Processing
 
 ---
 
@@ -202,16 +210,15 @@ If your feature fits into existing user interface features and requires no inter
 
 ---
 
-Packages for each language:
+# Advantages
 
-- `IRB.replaplugin`, `Python.replaplugin`, `Node.replaplugin`
-- Use your existing code editor.
+- Language packages: `IRB.replaplugin`, `Python.replaplugin`, `Node.replaplugin`
+- Use your existing code editor, with regular file extensions: `.rb`, `.py`, `.js`
+- Check them into version control
 
 ---
 
-# Implementation
-
-Managing an `IRB` child process:
+# Live Coding Implementation
 
       def initialize(command)
         PTY.spawn(command) do |output, input, _pid|
@@ -226,24 +233,22 @@ Managing an `IRB` child process:
 
       def parse_input(input)
         input_controller.parse_input(input)
-        write_input(input)
-      end
-
-      def write_input(input)
         @input.write(input)
       end
 
 ---
 
-## Details
+# Other Implementation Details
 
-- The Ruby process watches the file system
-- `gem 'listen'`
+- The Ruby process watches the file system (`gem 'listen'`)
 
 ---
 
-Thanks!
+# Repla: A New-Old Programming Tool
+
+That's it, thanks!
 
 Roben Kleene
 [@robenkleene](https://twitter.com/robenkleene)
 [robenkleene.com](https://robenkleene.com)
+[github.com/robenkleene/repla-live-coding](https://github.com/robenkleene/repla-live-coding)
