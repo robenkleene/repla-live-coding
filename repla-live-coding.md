@@ -5,6 +5,7 @@ How to make new innovating programming tools that work with existing tools and w
 Roben Kleene
 [@robenkleene](https://twitter.com/robenkleene)
 [robenkleene.com](https://robenkleene.com)
+[github.com/robenkleene/repla-live-coding](https://github.com/robenkleene/repla-live-coding)
 
 ---
 
@@ -22,26 +23,37 @@ Roben Kleene
 
 ---
 
-## Traits of Successful Programming Tools (For Existing Programmers) 1/2
+# Traits of Successful Programming Tools (For Existing Programmers) 1/2
 
-- **Browser UI**: A lingua franca for graphics
-- **Language Agnostic**: Work with existing programming languages
-- **Plain Text**: An open data format
-- **Packages Written in Scripting Languages**: Make customizations easy to share and modify
+- **Browser UI**: A lingua franca for graphics.
+- **Language Agnostic**: Work with existing programming languages.
+- **Plain Text**: An open data format.
+- **Packages Written in Scripting Languages**: Make customizations easy to share and modify.
 
 ---
 
-## Traits of Successful Programming Tools (For Existing Programmers) 2/2
+# Traits of Successful Programming Tools (For Existing Programmers) 2/2
 
-- **Text Editors**: The concentration of programming man-hours
-- **Unix Processes**: Use child processes to extend capabilities
-- **Version Control**: State of the art collaboration
+- **Text Editors**: The concentration of programming man-hours.
+- **Unix Processes**: Use child processes to extend capabilities.
+- **Version Control**: State of the art collaboration.
+
+---
+
+# What do people give up to use your tool?
+
+- Text editors?
+- Version control?
+
+Is your solution more useful?
 
 ---
 
 # Case Study: Visual Studio Code
 
-Visual Studio Code is a **language agnostic** **plain text editor** used to edit files that can be stored in **version control**. It's user interface is displayed using a **browser rendering engine**. It's **packages are written in scripting languages** that launch **Unix processes**.
+Visual Studio Code is a **language agnostic** **plain text editor** used to edit files that can be stored in **version control**. It's user interface is displayed using a **browser rendering engine**. It's **packages are written in scripting languages** that run **Unix processes**.
+
+Competes with text editors: [20-25 employees](https://changelog.com/podcast/277).
 
 ---
 
@@ -52,11 +64,24 @@ Visual Studio Code is a **language agnostic** **plain text editor** used to edit
 - **2018:** 34.9%
 - **2019:** 50.7%
 
-[Stack Overflow Insights](https://insights.stackoverflow.com/), competes with text editors: [20-25 employees](https://changelog.com/podcast/277).
+[Stack Overflow Insights](https://insights.stackoverflow.com/).
 
 ---
 
-Think about what people give up to use your tool (editors and version control)
+# Why Not Integrate With an IDE?
+
+---
+
+![fit](assets/xcode.png)
+
+---
+
+# When to integrate with an IDE?
+
+If your feature fits into existing user interface features and requires no interaction.
+
+- 👍 Linters
+- 👎 Splits & Folds
 
 ---
 
@@ -73,15 +98,20 @@ Think about what people give up to use your tool (editors and version control)
 # What isn't it?
 
 - An editor
+- It works alongside existing tools.
 
 ---
 
-# Repla
+# Replaces something for some tasks... the browser
 
-Instead of re-inventing the wheel, it seeks to work alongside existing tools.
+- Divided between two worlds, development when working on the application, and research. The latter is generally what browsers are designed for.
+- Developers work with an editor, a terminal, and a browser. Repla replaces the browser for some tasks.
+- Not as crazy as it sounds, an editor and a terminal both work the same way: extended with a packaging system, and run child processes.
+- Repla aims to give the browser these same capabilities.
 
-- Developers work with an editor, a terminal, and a browser, replaces the browser for some tasks.
-- Not as crazy as it sounds: an editor and a terminal both center on packaging systems and managing child processes.
+---
+
+# Screenshots
 
 ---
 
@@ -105,29 +135,12 @@ Instead of re-inventing the wheel, it seeks to work alongside existing tools.
 
 ---
 
-## Use Cases
+## Use Cases & Roadmap
 
 1. **Processes:** Web Development (integrate the server and browser into one window, automatically refresh)
 2. **Packaging System:** Distributing Web Apps (one click install, one click run, e.g., Jupyter Notebooks)
 3. **Packages 1:** Live Coding View
 4. **Packages 2:** Framer Classic & Processing
-
----
-
-# Why Not Integrate With an IDE?
-
----
-
-![fit](assets/xcode.png)
-
----
-
-# When to integrate with an IDE?
-
-If your feature fits into existing user interface features and requires no interaction.
-
-- 👍 Linters
-- 👎 Splits & Folding
 
 ---
 
