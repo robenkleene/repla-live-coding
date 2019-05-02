@@ -152,7 +152,7 @@ If your feature fits into existing user interface features and requires no inter
 
 ---
 
-# Marked
+# Marked (Deckset)
 
 - 👍 Plain text
 - 👍 Works with text editors
