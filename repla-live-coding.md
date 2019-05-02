@@ -56,6 +56,10 @@ Visual Studio Code is a **language agnostic** **plain text editor** used to edit
 
 ---
 
+Think of what people give up to use your tool: editors and version control
+
+---
+
 # What is Repla?
 
 - A web rendering engine
@@ -111,6 +115,10 @@ Instead of re-inventing the wheel, it seeks to work alongside existing tools.
 ---
 
 ![fit](assets/xcode.png)
+
+---
+
+In the IDE, 0 UI rule, or already integrates with existing UI. An interesting example of this is splits, there aren't good keyboard combinations or UI for splits.
 
 ---
 
