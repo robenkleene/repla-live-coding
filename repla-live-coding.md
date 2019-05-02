@@ -124,10 +124,10 @@ Instead of re-inventing the wheel, it seeks to work alongside existing tools.
 
 # Marked
 
-- Plain text
-- Works with text editors
-- Works with version control
-- But not language agnostic
+- 👍 Plain text
+- 👍 Works with text editors
+- 👍 Works with version control
+- 👎 But not language agnostic
 
 ---
 
@@ -135,9 +135,9 @@ Instead of re-inventing the wheel, it seeks to work alongside existing tools.
 
 ---
 
-- Not plain text
-- Not language agnostic
-- Doesn't work with version control
+- 👎 Not plain text
+- 👎 Not language agnostic
+- 👎 Doesn't work with version control
 
 ---
 
@@ -145,9 +145,9 @@ Instead of re-inventing the wheel, it seeks to work alongside existing tools.
 
 ---
 
-- Not plain text
-- Not language agnostic
-- Doesn't work with version control
+- 👎 Not plain text
+- 👎 Not language agnostic
+- 👎 Doesn't work with version control
 
 ---
 
@@ -155,9 +155,9 @@ Instead of re-inventing the wheel, it seeks to work alongside existing tools.
 
 ---
 
-- Not plain text
-- Not language agnostic
-- Doesn't work with version control
+- 👎 Not plain text
+- 👎 Not language agnostic
+- 👎 Doesn't work with version control
 
 ---
 
@@ -165,10 +165,10 @@ Instead of re-inventing the wheel, it seeks to work alongside existing tools.
 
 ---
 
-- Plain text
-- Works with text editors
-- Works with version control
-- Not language agnostic
+- 👍 Plain text
+- 👍 Works with text editors
+- 👍 Works with version control
+- 👎 Not language agnostic
 
 ---
 
