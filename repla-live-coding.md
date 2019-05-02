@@ -45,15 +45,13 @@ Roben Kleene
 - Text editors?
 - Version control?
 
-Is your solution more useful?
+Is your solution more useful than these things?
 
 ---
 
 # Case Study: Visual Studio Code
-4;67;17M67;17M
-Visual Studio Code is a **language agnostic** **plain text editor** used to edit files that can be stored in **version control**. It's user interface is displayed using a **browser rendering engine**. It's **packages are written in scripting languages** that run **Unix processes**.
 
-Competes with text editors: [20-25 employees](https://changelog.com/podcast/277).
+Visual Studio Code is a **language agnostic** **plain text editor** used to edit files that can be stored in **version control**. It's user interface is displayed using a **browser rendering engine**. It's **packages are written in scripting languages** that run **Unix processes**.
 
 ---
 
@@ -65,6 +63,8 @@ Competes with text editors: [20-25 employees](https://changelog.com/podcast/277)
 - **2019:** 50.7%
 
 [Stack Overflow Insights](https://insights.stackoverflow.com/).
+
+*Competes with text editors: [20-25 employees](https://changelog.com/podcast/277).*
 
 ---
 
@@ -97,17 +97,15 @@ If your feature fits into existing user interface features and requires no inter
 
 # What isn't it?
 
-- An editor
-- It works alongside existing tools.
+- An editor, instead it works alongside existing tools.
 
 ---
 
-# Replaces something for some tasks... the browser
+# Well maybe try to replace one thing... the browser
 
-- Divided between two worlds, development when working on the application, and research. The latter is generally what browsers are designed for.
-- Developers work with an editor, a terminal, and a browser. Repla replaces the browser for some tasks.
-- Not as crazy as it sounds, an editor and a terminal both work the same way: extended with a packaging system, and run child processes.
-- Repla aims to give the browser these same capabilities.
+- Sounds crazy?
+- The developer trifecta: the **browser**, a **text editor**, and a **terminal**.
+- A text editor and a terminal both use a **packaging system** to extend functionality by running **Unix processes**. The browser?
 
 ---
 
