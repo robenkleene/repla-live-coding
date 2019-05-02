@@ -51,7 +51,7 @@ Is your solution more useful than these things?
 
 # Case Study: Visual Studio Code
 
-Visual Studio Code is a **language agnostic** **plain text editor** used to edit files that can be stored in **version control**. It's user interface is displayed using a **browser rendering engine**. It's **packages are written in scripting languages** that run **Unix processes**.
+Visual Studio Code is a **language agnostic** **text editor** used to edit **plain text** files that can be stored in **version control**. It's user interface is displayed using a **browser rendering engine**. It's **packages are written in scripting languages** that run **Unix processes**.
 
 ---
 
