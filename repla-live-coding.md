@@ -56,7 +56,11 @@ Visual Studio Code is a **language agnostic** **plain text editor** used to edit
 
 ---
 
-Think of what people give up to use your tool: editors and version control
+Think about what people give up to use your tool (editors and version control)
+
+---
+
+# Repla
 
 ---
 
@@ -118,7 +122,12 @@ Instead of re-inventing the wheel, it seeks to work alongside existing tools.
 
 ---
 
-In the IDE, 0 UI rule, or already integrates with existing UI. An interesting example of this is splits, there aren't good keyboard combinations or UI for splits.
+# When to integrate with an IDE?
+
+If your feature fits into existing user interface features and requires no interaction.
+
+- 👍 Linters
+- 👎 Splits & Folding
 
 ---
 
