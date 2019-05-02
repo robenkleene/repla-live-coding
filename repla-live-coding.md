@@ -1,6 +1,6 @@
 # Repla: A New-Old Programming Tool
 
-How to make new innovating programming tools that work with existing tools and workflows.
+Making innovating programming tools that are compatible with existing workflows.
 
 Roben Kleene
 [@robenkleene](https://twitter.com/robenkleene)
@@ -50,7 +50,7 @@ Is your solution more useful than these things?
 ---
 
 # Case Study: Visual Studio Code
-<64;41;32M4;41;32M41;32M;32M;41;32M1;32M
+
 Visual Studio Code is a **language agnostic** **plain text editor** used to edit files that can be stored in **version control**. It's user interface is displayed using a **browser rendering engine**. It's **packages are written in scripting languages** that run **Unix processes**.
 
 ---
@@ -246,7 +246,7 @@ If your feature fits into existing user interface features and requires no inter
 
 # Repla: A New-Old Programming Tool
 
-That's it, thanks!
+**That's it, thanks!**
 
 Roben Kleene
 [@robenkleene](https://twitter.com/robenkleene)
