@@ -187,7 +187,7 @@ If your feature fits into existing user interface features and requires no inter
 - 👎 Doesn't work with text editors
 - 👎 Doesn't work with version control
 
-**See also:** Jupyter Notebooks, Swift Playgrounds
+**See also:** Jupyter Notebooks, Swift Playgrounds, R Markdown
 
 ---
 
