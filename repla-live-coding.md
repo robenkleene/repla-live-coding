@@ -15,7 +15,7 @@ Roben Kleene
 * Currently making a programming tool called Repla
 * Left job managing WSJ iOS app team to make it
 * I like AppKit GUI apps, and Unix TUI apps
-* Not a researcher, trying to create a business
+* Not a researcher, trying to create a business, not a boundary pusher
 
 ---
 
@@ -40,7 +40,7 @@ Roben Kleene
 
 ---
 
-# What do people give up to use your tool?
+# What do users have to give up to use your tool?
 
 - Text editors?
 - Version control?
@@ -94,17 +94,15 @@ If your feature fits into existing user interface features and requires no inter
 - A web rendering engine
 - Unix process management
 - A packaging system
-
-# What isn't it?
-
-- An editor, instead it works alongside existing tools.
+- Not an editor, works alongside existing tools
+- A platform
 
 ---
 
 # Well maybe try to replace one thing... the browser
 
 - Sounds crazy?
-- The developer trifecta: the **browser**, a **text editor**, and a **terminal**.
+- The developer trio: a **browser**, a **text editor**, and a **terminal**.
 - A text editor and a terminal both use a **packaging system** to extend functionality by running **Unix processes**. The browser?
 
 ---
