@@ -14,7 +14,6 @@ Roben Kleene
 * Developer for Apple platforms (iOS & Mac)
 * Currently making a programming tool called Repla
 * Left job managing WSJ iOS app team to make it
-* I like AppKit GUI apps, and Unix TUI apps
 * Not a researcher, trying to create a business, not a boundary pusher
 
 ---
