@@ -1,6 +1,6 @@
-# Repla: A New-Old Programming Tool
+# Introducing Repla: A Live-Coding Tool
 
-Making innovating programming tools that are compatible with existing workflows.
+How to make innovating programming tools that are compatible with existing workflows.
 
 Roben Kleene
 [@robenkleene](https://twitter.com/robenkleene)
@@ -242,7 +242,9 @@ If your feature fits into existing user interface features and requires no inter
 
 ---
 
-# Repla: A New-Old Programming Tool
+# Introducing Repla: A Live-Coding Tool
+
+How to make innovating programming tools that are compatible with existing workflows.
 
 **That's it, thanks!**
 
