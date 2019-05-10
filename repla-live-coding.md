@@ -33,7 +33,7 @@ Roben Kleene
 
 # Traits of Successful Programming Tools (For Existing Programmers) 2/2
 
-- **Text Editors**: The concentration of programming man-hours.
+- **Text Editors**: The concentration of programming hours.
 - **Unix Processes**: Use child processes to extend capabilities.
 - **Version Control**: State of the art collaboration.
 
