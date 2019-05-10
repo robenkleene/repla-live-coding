@@ -194,10 +194,10 @@ If your feature fits into existing user interface features and requires no inter
 
 # Framer Classic
 
-- 👎 Not plain text
-- 👎 Not language agnostic
+- 👍 Plain text
+- 👍 Works with version control
 - 👎 Doesn't work with text editors
-- 👎 Doesn't work with version control
+- 👎 Not language agnostic
 
 **See also:** Processing
 
